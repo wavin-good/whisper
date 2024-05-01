@@ -135,7 +135,7 @@ function toggleButtons()
                     //Exclude the line "Rank. Username: Frequency times"
                     if (rank !== "Rank" && username !== "Username" && frequency !== "Frequency") 
                     {
-                        resultEntries += rank + '. <strong>' + username + '</strong> ' + keyword + ': ' + frequency + ' times<br>';
+                        resultEntries += rank + '. <strong>' + username + '</strong> ' + keyword + ': ' + frequency + (frequency === 1 ? ' time<br>' : ' times<br>');
                     }
                 }
             }
