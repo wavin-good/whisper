@@ -6,21 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="script.js"></script>
     <link rel="stylesheet" href="styles.css">
-    <title>Grill Engagement Whisperer [v1.1]</title>
+    <title>Grill Engagement Whisperer [v1.2]</title>
 </head>
 
 <body>
-    <h1>Grill Engagement Whisperer [v1.1]</h1>
-    <label for="file">Upload a file to whisper to [e.g.: asc, log, txt, etc.]:</label><br>
-    <input type="file" id="file" accept=".txt" onchange="toggleButtons()"><br>
-    <div class="button-container">
-        <button id="whisperTopSharersBtn" onclick="whisperTopSharers()" disabled>Whisper My Top Sharers</button>
-        <button id="whisperTopCommentersBtn" onclick="whisperTopCommenters()" disabled>Whisper My Top Commenters</button>
+    <div class="app-name">
+        <h1>Grill Engagement Whisperer [v1.2]</h1>
     </div>
-    <div id="result"></div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.3/xlsx.full.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    <div class="app-content">        
+        <label for="file">Upload a file to whisper to [e.g.: asc, log, txt, etc.]:</label><br>
+        <input type="file" id="file" accept=".txt" onchange="toggleButtons()"><br>
+        <div class="button-container">
+            <button id="whisperTopSharersBtn" onclick="whisperTopSharers()" disabled>Whisper My Top Sharers</button>
+            <button id="whisperTopCommentersBtn" onclick="whisperTopCommenters()" disabled>Whisper My Top Commenters</button>
+        </div>
+        <div id="result"></div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.3/xlsx.full.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+    </div>
 
 </body>
 </html>
