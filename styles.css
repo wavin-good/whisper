@@ -36,8 +36,8 @@ body .app-name {
 }
 
 .logo {
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 30px;
     object-fit: cover;
     border-radius: 50%;
 }
