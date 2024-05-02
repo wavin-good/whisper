@@ -37,7 +37,9 @@ body .app-name {
 
 .logo {
     width: 50px;
-    height: auto;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 50%;
 }
 
 textarea {
