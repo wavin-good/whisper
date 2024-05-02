@@ -17,8 +17,7 @@ body {
 }
 
 body .app-name {
-    display: flex;
-    align-items: center;
+    display: flex;    
     margin-left: 0% !important;
     padding: 0% 4%;
     position: fixed;
