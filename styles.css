@@ -4,7 +4,7 @@ body {
     padding: 0; /* Remove default padding to cover the entire viewport */
     background-image: url('whisper.jpg');
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: local;
     background-size: 100% 100%;
 }
 
