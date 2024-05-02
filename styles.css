@@ -17,12 +17,23 @@ body {
 }
 
 body .app-name {
+    display: flex;
+    align-items: center;
     margin-left: 0% !important;
     padding: 0% 4%;
     position: fixed;
     background-color: rgba(155, 145, 225, 0.4);
     color: #6A1B9A;
     width: 100%;
+}
+
+.app-name h1 {
+    margin-right: 10px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
 }
 
 textarea {
