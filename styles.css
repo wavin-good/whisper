@@ -20,7 +20,7 @@ body .app-name {
     display: flex;    
     align-items: center;
     margin-left: 0% !important;
-    padding: 0% 4%;
+    padding: 5% 4%;
     position: fixed;
     background-color: rgba(155, 145, 225, 0.4);
     color: #6A1B9A;
