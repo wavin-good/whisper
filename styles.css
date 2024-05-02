@@ -36,7 +36,7 @@ body .app-name {
 }
 
 .logo {
-    width: 100px;
+    width: 50px;
     height: auto;
     object-fit: cover;
     /* border-radius: 50%; only for round logo like Subsocial*/
